@@ -1,0 +1,173 @@
+body{
+	margin:0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding:0;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+
+form{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.war_container{
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+	background-color: #fff;
+}
+.war_logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.war_section{
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+	background-color: #0f0251;
+	height: 100%;
+}
+.war_section_container{
+	width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    position: relative;
+    padding: 30px 0px;
+}
+.war_section_title h1 {
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.war_section_title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+.war_section_description {
+    width: 100%;
+    position: relative;
+}
+.war_section_description p {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color:#fff;
+    width: 100%;
+}
+.form-container{
+	width: 100%;
+	max-width: 94%;
+	position: relative;
+	background-color: #fff;
+	padding:20px;
+}
+.form_control{
+	width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #acacac;
+    margin-bottom: 15px;
+    color:grey;
+    outline: none;
+}
+.secondCheckbox {
+    margin-top: 10px;
+}
+.btn-pay {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #56a2d6;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+}
+.extra_links {
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+}
+.link-inline {
+    flex-direction: column;
+    width: 100%;
+    max-width: 30%;
+    text-align: center;
+}
+.link-inline a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.link-inline.extra_wdt {
+    max-width: 40%;
+}
+label {
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    color: #0f0251;
+    width: 100%;
+    top: -3px;
+    position: relative;
+    margin-bottom: 9px;
+    font-weight: bold;
+}
+.secondCheckbox input {
+    width: 100%;
+    max-width: 14px;
+    float: left;
+}
+
+.secondCheckbox label {
+    width: 100%;
+    max-width: 90%;
+    float: left;
+    top: 0px;
+    line-height: 1.5;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 625px){
+.war_section_description{
+	max-width: 90%;
+	margin: 0 auto;
+}
+.form-container {
+	max-width: 85%;
+	margin: 0 auto;
+}
+.extra_links{
+	max-width: 90%;
+	margin: 0 auto;
+	margin-top:25px;
+}
+}
+@media screen and (max-width: 425px){
+.war_section_description{
+	max-width: 85%;
+	margin: 0 auto;
+}
+.form-container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+.extra_links{
+	max-width: 85%;
+	margin: 0 auto;
+	margin-top:20px;
+}
+}
